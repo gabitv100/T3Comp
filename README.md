@@ -2,7 +2,8 @@
 Terceiro Trabalho Compiladores 2022/2
 
 Baseado nos tokens produzidos pelo analisador léxico, o YACC analisador sintático, irá validar as regras de produção da gramatica.
-Dentro desta pasta, há uma sub pasta já com o programa Analisador.exe já compilado.
+Dentro desta pasta, há uma sub pasta com o programa Analisador.exe já compilado.
+  
   
 Se desejar passar pelo processo de compilação, siga os passos a baixo:
  - bison -dy yacc.y
