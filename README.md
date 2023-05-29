@@ -8,8 +8,10 @@ Se desejar passar pelo processo de compilação, siga os passos a baixo:
  - bison -dy yacc.y
 
 O arquivo yacc.y descreve as regras gramaticais, e a execução do comando bison irá gerar dois arquivos:
+
 	y.tab.c ->lógica de produção da gramatica implementada pelo YACC
-  y.tab.h ->catalogo de não-terminais da gramatica.
+	
+  	y.tab.h ->catalogo de não-terminais da gramatica.
 
 Após essa etapa, executar:
   - lex tokens.l
